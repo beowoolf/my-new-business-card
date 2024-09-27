@@ -1,5 +1,5 @@
 {
-  "name": "pawel-wilczek.mojezapiski.pl",
+  "name": "nuxt-app",
   "private": true,
   "type": "module",
   "scripts": {
@@ -9,7 +9,8 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
-  "devDependencies": {
+  "dependencies": {
+    "@nuxt/content": "^2.13.2",
     "@nuxt/devtools": "1.3.9",
     "@nuxt/image": "1.2.0",
     "@nuxtjs/color-mode": "3.4.4",
@@ -18,19 +19,18 @@
     "@rollup/wasm-node": "^4.21.1",
     "@types/node": "^22.5.1",
     "@vite-pwa/nuxt": "^0.10.1",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
     "nuxt": "^3.13.0",
     "nuxt-gtag": "^3.0.1",
+    "nuxt-jsonld": "^2.0.8",
     "nuxt-seo-experiments": "4.0.0",
     "nuxt-simple-sitemap": "^4.4.1",
     "nuxt-site-config": "^2.2.15",
     "nuxt-site-config-kit": "^2.2.15",
-    "playwright": "^1.46.1"
-  },
-  "dependencies": {
-    "bootstrap": "^5.3.3",
-    "bootstrap-icons": "^1.11.3",
-    "nuxt-jsonld": "^2.0.8",
-    "sharp": "0.32.3"
+    "sharp": "0.32.3",
+    "vue": "^3.4.38",
+    "vue-router": "^4.4.3"
   },
   "resolutions": {
     "rollup": "npm:@rollup/wasm-node"

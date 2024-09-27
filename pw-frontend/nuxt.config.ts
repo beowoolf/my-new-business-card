@@ -8,6 +8,7 @@ export default defineNuxtConfig({
   ssr: true,
   devtools: { enabled: true },
   modules: [
+    '@nuxt/content',
     '@nuxtjs/color-mode',
     '@nuxt/image',
     '@vite-pwa/nuxt',
