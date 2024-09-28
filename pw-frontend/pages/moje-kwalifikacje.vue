@@ -68,6 +68,17 @@
         >
       </li>
     </ol>
+    <!--b-modal
+      ref="my-modal"
+      hide-footer
+      :size="cert.type === 'png' ? 'sm' : 'lg'"
+      :title="cert.title"
+      :header-bg-variant="$colorMode.preference == 'dark' ? 'dark' : 'light'"
+      :header-text-variant="$colorMode.preference == 'dark' ? 'light' : 'dark'"
+      :body-bg-variant="$colorMode.preference == 'dark' ? 'dark' : 'light'"
+      :body-text-variant="$colorMode.preference == 'dark' ? 'light' : 'dark'"
+    >
+    </b-modal-->
     <div
       id="exampleModal"
       ref="exampleModalRef"
@@ -136,23 +147,14 @@
 </template>
 
 <script setup>
-const ogImageOptions = ref({
-  title: 'Kwalifikacje Pawła Wilczka',
-  description: "Zdobyte kwalifikacje przez Pawła Wilczka magistra inżyniera w dziedzinie informatyki specjalizującego się w programowaniu i zajmującego się również administracją systemami operacyjnymi i bazodanowymi."
-})
-
-// defineOgImageScreenshot({
-//   colorScheme: 'dark'
-// })
-
-defineOgImage({
-  ogImageOptions
-})
+const title = ref('Kwalifikacje Pawła Wilczka');
+const description = ref('Zdobyte kwalifikacje przez Pawła Wilczka magistra inżyniera w dziedzinie informatyki specjalizującego się w programowaniu i zajmującego się również administracją systemami operacyjnymi i bazodanowymi.');
 
 useMySEO(
-  ogImageOptions.value.title,
-  ogImageOptions.value.description,
-  ['Paweł', 'Wilczek']
+  title.value,
+  description.value,
+  ['Paweł', 'Wilczek'],
+  '/logo.png'
 )
 </script>
 
@@ -263,6 +265,12 @@ export default {
                 i: '/akademiadotnet/szkolahtmlcss/9662ACC2-0DB9-4198-82D9-08D88CA465D7',
                 p: false,
               },
+              {
+                c: 'Szkoła Blazora',
+                d: '2023-12-28',
+                i: '/akademiadotnet/szkolablazora/B17FF3B5-994C-49BD-99A5-D1C7D6BE5EF8',
+                p: false,
+              },
             ],
           },
           {
@@ -278,9 +286,27 @@ export default {
             ],
           },
           {
+            link: '/devbites/',
+            name: 'devBites',
+            documents: [
+              {
+                c: 'Programowanie Obiektowe (Fundamenty)',
+                d: '2023-12-01',
+                i: '/devbites/ProgramowanieObiektoweFundamenty.pdf',
+                p: false,
+              },
+            ],
+          },
+          {
             link: '/videopoint/',
             name: 'Videopoint',
             documents: [
+              {
+                c: 'Vue.js. Kurs video. Podstawy pracy z frameworkiem',
+                d: '2023-12-30',
+                i: '067caf5b14476aa52b26d621dea6096c',
+                p: false,
+              },
               {
                 c: 'OpenShift. Kurs video. Zosta\u0144 administratorem system\u00F3w IT',
                 d: '2022-06-17',
@@ -588,15 +614,71 @@ export default {
       },
     }
   },
+  // head() {
+  //   const head = {
+  //     link: [],
+  //   }
+  //   for (let index = 0; index < this.platforms.internal.length; index++) {
+  //     const element = this.platforms.internal[index].documents
+  //     // console.log(element)
+  //     for (let pos = 0; pos < element.length; pos++) {
+  //       const elementPos = element[pos]
+  //       // console.log(elementPos)
+  //       if (elementPos.f)
+  //         for (let i = 0; i < elementPos.f.length; i++)
+  //           head.link.push({
+  //             rel: 'preload',
+  //             as:
+  //               this.typeOfCert(elementPos.f[i].l) === 'png'
+  //                 ? 'image'
+  //                 : 'embed',
+  //             href: `${
+  //               (this.typeOfCert(elementPos.f[i].l) === 'png'
+  //                 ? '/_ipx/f_webp'
+  //                 : '') + elementPos.f[i].l
+  //             }`,
+  //           })
+  //       else {
+  //         const url = elementPos.i
+  //         // console.log(elementPos)
+  //         // console.log("URL: " + url)
+  //         const type = this.typeOfCert(url)
+  //         const isFullUrl = url.includes('/')
+  //         let mainUrl = ''
+  //         if (isFullUrl === false) mainUrl = '/videopoint/png/'
+  //         mainUrl = mainUrl + url
+  //         if (type === 'both') mainUrl = '/_ipx/f_webp' + mainUrl + '.png'
+  //         if (type === 'both' || type === 'png')
+  //           head.link.push({
+  //             rel: 'preload',
+  //             as: 'image',
+  //             href: `${mainUrl}`,
+  //           })
+  //         if (type === 'both' || type === 'pdf')
+  //           head.link.push({
+  //             rel: 'preload',
+  //             as: 'embed',
+  //             href: `${mainUrl
+  //               .replace('.png', '.pdf')
+  //               .replace('/png/', '/pdf/')
+  //               .replace('/_ipx/f_webp', '')}`,
+  //           })
+  //       }
+  //     }
+  //   }
+  //   return head
+  // },
   methods: {
     typeOfCert(url) {
+      // console.log(url)
       return url.endsWith('.pdf')
         ? 'pdf'
         : url.endsWith('.png')
-        ? 'png'
-        : 'both'
+          ? 'png'
+          : 'both'
     },
     openModal() {
+      // eslint-disable-next-line no-undef
       const myModal = new bootstrap.Modal(this.$refs.exampleModalRef, {
         keyboard: false,
       })
@@ -605,6 +687,9 @@ export default {
     },
     pokazCertyfikat(url, name) {
       this.cert.type = this.typeOfCert(url)
+      // console.log('typ: ' + this.cert.type)
+      // console.log('url: ' + url)
+      // console.log('name: ' + name)
       this.cert.title = name
       const isFullUrl = url.includes('/')
       this.cert.mainUrl = ''
@@ -612,7 +697,14 @@ export default {
       this.cert.mainUrl = this.cert.mainUrl + url
       if (this.cert.type === 'both')
         this.cert.mainUrl = this.cert.mainUrl + '.png'
+      // console.log('this.cert.mainUrl: ' + this.cert.mainUrl)
+      // if (this.cert.type === 'both')
+      //   console.log(
+      //     'alternativeUrl: ' +
+      //       this.cert.mainUrl.replace('.png', '.pdf').replace('/png/', '/pdf/')
+      //   )
       this.cert.print = false
+      // this.$refs['my-modal'].show()
       this.openModal()
     },
     generujTytulOknaModalnego(cert, anchor) {
