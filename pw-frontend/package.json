@@ -27,7 +27,7 @@
     "nuxt-seo-experiments": "4.0.0",
     "nuxt-simple-sitemap": "^4.4.1",
     "nuxt-site-config": "^2.2.15",
-    "nuxt-site-config-kit": "^2.2.15",
+    "nuxt-site-config-kit": "^2.2.18",
     "sharp": "0.32.3",
     "vue": "^3.4.38",
     "vue-router": "^4.4.3"
