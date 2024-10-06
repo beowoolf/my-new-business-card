@@ -24,7 +24,7 @@
     "nuxt": "^3.13.0",
     "nuxt-gtag": "^3.0.1",
     "nuxt-jsonld": "^2.0.8",
-    "nuxt-seo-experiments": "4.0.0",
+    "nuxt-seo-experiments": "^4.0.1",
     "nuxt-simple-sitemap": "^4.4.1",
     "nuxt-site-config": "^2.2.18",
     "nuxt-site-config-kit": "^2.2.18",

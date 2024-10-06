@@ -2503,18 +2503,18 @@
   resolved "https://registry.yarnpkg.com/@ungap/structured-clone/-/structured-clone-1.2.0.tgz#756641adb587851b5ccb3e095daf27ae581c8406"
   integrity sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==
 
-"@unhead/addons@^1.9.16":
-  version "1.9.16"
-  resolved "https://registry.yarnpkg.com/@unhead/addons/-/addons-1.9.16.tgz#a59d89bddcf45114d5befdce8104080ccbf78a4c"
-  integrity sha512-5F6jReJceeeTnY774/OIAjEBMZ2EWuEivLLanpOJzZdxf30zzsZ+v9WwIEx5tb3+TTdvEhHFcB3rTH6UoLvxWg==
+"@unhead/addons@^1.10.0":
+  version "1.11.7"
+  resolved "https://registry.yarnpkg.com/@unhead/addons/-/addons-1.11.7.tgz#871f21c87febc4bd9f783d5575cae3b98ecba40c"
+  integrity sha512-h2EfW4NHgUSr/MZTHnr+nWm2eiX6yVFdxAdYuVOI8VgTUdyYGD7RsY5Gm0gMcJ9h/KPrSh7EyF0tKlS5jyVVrQ==
   dependencies:
-    "@rollup/pluginutils" "^5.1.0"
-    "@unhead/schema" "1.9.16"
-    "@unhead/shared" "1.9.16"
-    magic-string "^0.30.10"
+    "@rollup/pluginutils" "^5.1.2"
+    "@unhead/schema" "1.11.7"
+    "@unhead/shared" "1.11.7"
+    magic-string "^0.30.11"
     mlly "^1.7.1"
-    ufo "^1.5.3"
-    unplugin "^1.11.0"
+    ufo "^1.5.4"
+    unplugin "^1.14.1"
     unplugin-ast "^0.10.0"
 
 "@unhead/dom@1.10.0", "@unhead/dom@^1.10.0":
@@ -2541,6 +2541,14 @@
     hookable "^5.5.3"
     zhead "^2.2.4"
 
+"@unhead/schema@1.11.7":
+  version "1.11.7"
+  resolved "https://registry.yarnpkg.com/@unhead/schema/-/schema-1.11.7.tgz#917738d3adf21d5baa3791a17948c425f7e41808"
+  integrity sha512-j9uN7T63aUXrZ6yx2CfjVT7xZHjn0PZO7TPMaWqMFjneIH/NONKvDVCMEqDlXeqdSIERIYtk/xTHgCUMer5eyw==
+  dependencies:
+    hookable "^5.5.3"
+    zhead "^2.2.4"
+
 "@unhead/schema@1.9.16", "@unhead/schema@^1.7.0":
   version "1.9.16"
   resolved "https://registry.yarnpkg.com/@unhead/schema/-/schema-1.9.16.tgz#cd650cc3a48e501f676bd8b0077acd5bac6776a5"
@@ -2555,6 +2563,13 @@
   integrity sha512-Lv7pP0AoWJy+YaiWd4kGD+TK78ahPUwnIRx6YCC6FjPmE0KCqooeDS4HbInYaklLlEMQZislXyIwLczK2DTWiw==
   dependencies:
     "@unhead/schema" "1.10.0"
+
+"@unhead/shared@1.11.7":
+  version "1.11.7"
+  resolved "https://registry.yarnpkg.com/@unhead/shared/-/shared-1.11.7.tgz#f2a6dcc0368a1286f6767dacbf28eb59122624cc"
+  integrity sha512-5v3PmV1LMyikGyQi/URYS5ilH8dg1Iomtja7iFWke990O8RBDEzAdagJqcsUE/fw+o7cXRSOamyx5wCf5Q1TrA==
+  dependencies:
+    "@unhead/schema" "1.11.7"
 
 "@unhead/shared@1.9.16":
   version "1.9.16"
@@ -6828,21 +6843,21 @@ nuxt-jsonld@^2.0.8:
     pathe "^1.1.0"
     schema-dts "^1.1.2"
 
-nuxt-seo-experiments@4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/nuxt-seo-experiments/-/nuxt-seo-experiments-4.0.0.tgz#80d8e5fe84dde01a2eb60db361b27246bddf615b"
-  integrity sha512-oDij1dgMsX5aBnRSUA/Sh/ieN8DH+sg8zu/ijLH0j+vy659ecFNQLfByP5yYSZyN+3myGkwtr5OM8GNeIFHHag==
+nuxt-seo-experiments@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/nuxt-seo-experiments/-/nuxt-seo-experiments-4.0.1.tgz#816d1002465ed0f8d54642d91f3d52602570ee32"
+  integrity sha512-L60bkTFwfW+pQcxkCRhoW20c9+qiJiYgDKTWFDT58cS68M8vm76+H28UCMrmWRe3i3r2oDqQEAjR0QUiDVQgNg==
   dependencies:
-    "@nuxt/kit" "^3.12.3"
-    "@unhead/addons" "^1.9.16"
+    "@nuxt/kit" "^3.13.0"
+    "@unhead/addons" "^1.10.0"
     defu "^6.1.4"
     escape-string-regexp "^5.0.0"
     fast-glob "^3.3.2"
     image-size "^1.1.1"
-    nuxt-site-config "^2.2.14"
-    nuxt-site-config-kit "^2.2.14"
+    nuxt-site-config "^2.2.15"
+    nuxt-site-config-kit "^2.2.15"
     pathe "^1.1.2"
-    ufo "^1.5.3"
+    ufo "^1.5.4"
 
 nuxt-simple-sitemap@^4.4.1:
   version "4.4.1"
@@ -6865,7 +6880,7 @@ nuxt-simple-sitemap@^4.4.1:
     site-config-stack "^2.2.0"
     ufo "^1.3.2"
 
-nuxt-site-config-kit@2.2.15, nuxt-site-config-kit@^2.2.0, nuxt-site-config-kit@^2.2.14:
+nuxt-site-config-kit@2.2.15, nuxt-site-config-kit@^2.2.0:
   version "2.2.15"
   resolved "https://registry.yarnpkg.com/nuxt-site-config-kit/-/nuxt-site-config-kit-2.2.15.tgz#66703b76a9aceae4bb8cd0efd4f28acb200391a4"
   integrity sha512-uN+JOijDt0u35rBhI3GhRHvPKncm2Nu/P3QMRIi+mwt4F/tQtlvLa1XUANkeEy8InTnPTVgs6dSDSqHP4sBXzg==
@@ -6877,7 +6892,7 @@ nuxt-site-config-kit@2.2.15, nuxt-site-config-kit@^2.2.0, nuxt-site-config-kit@^
     std-env "^3.7.0"
     ufo "^1.5.3"
 
-nuxt-site-config-kit@2.2.18, nuxt-site-config-kit@^2.2.16, nuxt-site-config-kit@^2.2.18:
+nuxt-site-config-kit@2.2.18, nuxt-site-config-kit@^2.2.15, nuxt-site-config-kit@^2.2.16, nuxt-site-config-kit@^2.2.18:
   version "2.2.18"
   resolved "https://registry.yarnpkg.com/nuxt-site-config-kit/-/nuxt-site-config-kit-2.2.18.tgz#dc65c7885a968b6abdf77ca78ad3c33291ca53ab"
   integrity sha512-iPtf2X1fvI9m9VV04edSqNGC2EzQ1aLB7F2/AOxYRktCJxHeTdBGifuNPc90EaEIOfWx+gf3lmRd4EppGoAMSA==
@@ -6889,7 +6904,7 @@ nuxt-site-config-kit@2.2.18, nuxt-site-config-kit@^2.2.16, nuxt-site-config-kit@
     std-env "^3.7.0"
     ufo "^1.5.4"
 
-nuxt-site-config@^2.2.0, nuxt-site-config@^2.2.14:
+nuxt-site-config@^2.2.0:
   version "2.2.15"
   resolved "https://registry.yarnpkg.com/nuxt-site-config/-/nuxt-site-config-2.2.15.tgz#79e31a88bca91e9f3c36d27912fadef16601a0e8"
   integrity sha512-V/gsWAeSWQi7FGoy6vicf6DXaaNJ/akail54dMWnrkcBre4PpBSwP7arZqmZZzj1mc0v7LoYqISr9qeXhcT1NA==
@@ -6904,7 +6919,7 @@ nuxt-site-config@^2.2.0, nuxt-site-config@^2.2.14:
     site-config-stack "2.2.15"
     ufo "^1.5.3"
 
-nuxt-site-config@^2.2.16, nuxt-site-config@^2.2.18:
+nuxt-site-config@^2.2.15, nuxt-site-config@^2.2.16, nuxt-site-config@^2.2.18:
   version "2.2.18"
   resolved "https://registry.yarnpkg.com/nuxt-site-config/-/nuxt-site-config-2.2.18.tgz#4c815a946805cf13271a72da20f82e63689a0f60"
   integrity sha512-NU39ANP1kvRBzpEWV496y/lf9PKVv3t1VKX3zmQ1POcbzAXU4gm0Mh5NKOaLEcoXj6bQnziFNqjzHX3DAA8Aog==
