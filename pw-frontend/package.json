@@ -30,7 +30,7 @@
     "nuxt-site-config-kit": "^2.2.18",
     "sharp": "0.32.3",
     "vue": "^3.4.38",
-    "vue-router": "^4.4.3"
+    "vue-router": "^4.4.5"
   },
   "resolutions": {
     "rollup": "npm:@rollup/wasm-node"
