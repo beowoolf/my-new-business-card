@@ -21,7 +21,7 @@
     "@vite-pwa/nuxt": "^0.10.5",
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
-    "nuxt": "^3.13.0",
+    "nuxt": "^3.13.2",
     "nuxt-gtag": "^3.0.1",
     "nuxt-jsonld": "^2.0.8",
     "nuxt-seo-experiments": "^4.0.1",
