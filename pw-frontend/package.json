@@ -15,7 +15,7 @@
     "@nuxt/image": "1.2.0",
     "@nuxtjs/color-mode": "3.5.2",
     "@nuxtjs/google-fonts": "^3.2.0",
-    "@nuxtjs/robots": "^4.1.9",
+    "@nuxtjs/robots": "^4.1.10",
     "@rollup/wasm-node": "^4.24.3",
     "@types/node": "^22.8.4",
     "@vite-pwa/nuxt": "^0.10.5",
