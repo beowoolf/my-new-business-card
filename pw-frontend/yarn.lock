@@ -2122,17 +2122,17 @@
     unist-util-visit "^5.0.0"
     unwasm "^0.3.9"
 
-"@nuxtjs/robots@^4.1.10":
-  version "4.1.11"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/robots/-/robots-4.1.11.tgz#f34f9fb1a1a04fc7e91f7f147cd49f452facdac6"
-  integrity sha512-neHIO1WnnURwq/XE7z8SSrf7OvjwD+pfRPpCHdMdaly6aGN8U0z4ZAq53gIrcYMi/xzE+D63QlxeODQgKjLQfQ==
+"@nuxtjs/robots@^4.1.9":
+  version "4.1.9"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/robots/-/robots-4.1.9.tgz#da28a9c6e3a1401637a5561903d9a5236d0adee4"
+  integrity sha512-zd0gw2ws0FDgWi9yE4mLoIX7yajefKCp0Skl9cm1PP9W1AOFIQTjbUnRMMKbXFF2d9QFRVKpfSnaBgblbzuVWg==
   dependencies:
     "@nuxt/devtools-kit" "^1.6.0"
     "@nuxt/kit" "^3.13.2"
     consola "^3.2.3"
     defu "^6.1.4"
-    nuxt-site-config "^2.2.21"
-    nuxt-site-config-kit "^2.2.21"
+    nuxt-site-config "^2.2.18"
+    nuxt-site-config-kit "^2.2.18"
     pathe "^1.1.2"
     pkg-types "^1.2.1"
     sirv "^3.0.0"
@@ -7165,18 +7165,6 @@ nuxt-site-config-kit@2.2.18, nuxt-site-config-kit@^2.2.15, nuxt-site-config-kit@
     std-env "^3.7.0"
     ufo "^1.5.4"
 
-nuxt-site-config-kit@2.2.21, nuxt-site-config-kit@^2.2.21:
-  version "2.2.21"
-  resolved "https://registry.yarnpkg.com/nuxt-site-config-kit/-/nuxt-site-config-kit-2.2.21.tgz#3f5d359c3e5410c5da2792e8a60bdc8955ece3ab"
-  integrity sha512-xO41Zf6bXlA9Zvj+fX7ftD+ITee4LfrkzHj85Gt4FpgwonFxzGO5pMBtAqIxXKJwuyT1z2wVAixHI+ov66wV0w==
-  dependencies:
-    "@nuxt/kit" "^3.13.2"
-    "@nuxt/schema" "^3.13.2"
-    pkg-types "^1.2.1"
-    site-config-stack "2.2.21"
-    std-env "^3.7.0"
-    ufo "^1.5.4"
-
 nuxt-site-config@^2.2.0:
   version "2.2.15"
   resolved "https://registry.yarnpkg.com/nuxt-site-config/-/nuxt-site-config-2.2.15.tgz#79e31a88bca91e9f3c36d27912fadef16601a0e8"
@@ -7205,21 +7193,6 @@ nuxt-site-config@^2.2.15, nuxt-site-config@^2.2.18:
     pkg-types "^1.2.0"
     sirv "^2.0.4"
     site-config-stack "2.2.18"
-    ufo "^1.5.4"
-
-nuxt-site-config@^2.2.21:
-  version "2.2.21"
-  resolved "https://registry.yarnpkg.com/nuxt-site-config/-/nuxt-site-config-2.2.21.tgz#19b3cc62a9c4a985f26de8f859b06564b3880339"
-  integrity sha512-VsHpR4socGrlRPjyg2F8JqbirBqH4yCkTQa60fj7saqKMPW1VcRROn21OJzfTHDpjeD+KayRdR3FB0Jxk9WFNA==
-  dependencies:
-    "@nuxt/devtools-kit" "^1.6.0"
-    "@nuxt/kit" "^3.13.2"
-    "@nuxt/schema" "^3.13.2"
-    nuxt-site-config-kit "2.2.21"
-    pathe "^1.1.2"
-    pkg-types "^1.2.1"
-    sirv "^3.0.0"
-    site-config-stack "2.2.21"
     ufo "^1.5.4"
 
 nuxt@^3.13.2:
@@ -8554,13 +8527,6 @@ site-config-stack@2.2.18:
   version "2.2.18"
   resolved "https://registry.yarnpkg.com/site-config-stack/-/site-config-stack-2.2.18.tgz#1dbaf40e9d5e80ca3be575b5dd532a091ee71602"
   integrity sha512-kwyuCwYZBJikuLN3IB15cGT7SHQQxAitLaDs1b6eNZbb+tBHubVUhj0pnFZnZZi4+5eNCO+3HiZxaU3qpFxP2A==
-  dependencies:
-    ufo "^1.5.4"
-
-site-config-stack@2.2.21:
-  version "2.2.21"
-  resolved "https://registry.yarnpkg.com/site-config-stack/-/site-config-stack-2.2.21.tgz#1bb151777834cfda01ee0f75c410527a3fc84751"
-  integrity sha512-HRIgIgZAEK8XFYYepL/KtygJgmcUPdgxBJl0ueSrA12lNo2tk5aMkSuA2Oz/k6chnTbEwd6ESMYCs6opgYKNHw==
   dependencies:
     ufo "^1.5.4"
 
