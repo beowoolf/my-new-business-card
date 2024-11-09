@@ -18,7 +18,7 @@
     "@nuxtjs/robots": "^4.1.9",
     "@rollup/wasm-node": "^4.24.3",
     "@types/node": "^22.8.4",
-    "@vite-pwa/nuxt": "^0.10.5",
+    "@vite-pwa/nuxt": "^0.10.6",
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
     "nuxt": "^3.13.2",
