@@ -2356,10 +2356,10 @@
     estree-walker "^2.0.2"
     picomatch "^2.3.1"
 
-"@rollup/wasm-node@^4.24.3":
-  version "4.24.3"
-  resolved "https://registry.yarnpkg.com/@rollup/wasm-node/-/wasm-node-4.24.3.tgz#3c6d4ff412a37aeaa9439cf44839f12c9d4bea1d"
-  integrity sha512-lahpprfoJKm88bgp2IrDI/VRyZocsvGvemSkhrsbBTj9yqhkyIb7W5CZAdZWgeAibO5EIk2cN0yWCHcjohL1YQ==
+"@rollup/wasm-node@^4.25.0":
+  version "4.25.0"
+  resolved "https://registry.yarnpkg.com/@rollup/wasm-node/-/wasm-node-4.25.0.tgz#0d3c105c19bb5109f4d6a647a57533676460fade"
+  integrity sha512-Brhz6gK/43E9lpMkbcfg06hRHctpMkbmy1JzOU2JWub3teujTNqou1xWTQgt9CRu15WGTt78t7p7rNxGIBZv+g==
   dependencies:
     "@types/estree" "1.0.6"
   optionalDependencies:
