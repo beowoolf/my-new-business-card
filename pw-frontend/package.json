@@ -23,7 +23,7 @@
     "bootstrap-icons": "^1.11.3",
     "nuxt": "^3.14.1592",
     "nuxt-gtag": "^3.0.2",
-    "nuxt-jsonld": "^2.0.8",
+    "nuxt-jsonld": "^2.1.0",
     "nuxt-seo-experiments": "^4.0.1",
     "nuxt-simple-sitemap": "^4.4.1",
     "nuxt-site-config": "^2.2.21",
