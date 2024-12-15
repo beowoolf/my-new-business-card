@@ -7405,7 +7405,7 @@ nuxt-site-config@^2.2.15:
     site-config-stack "2.2.18"
     ufo "^1.5.4"
 
-nuxt-site-config@^3.0.4:
+nuxt-site-config@^3.0.4, nuxt-site-config@^3.0.6:
   version "3.0.6"
   resolved "https://registry.yarnpkg.com/nuxt-site-config/-/nuxt-site-config-3.0.6.tgz#091f274b71f8cfa06ed6608e92d25a72e087507a"
   integrity sha512-Mkyen81br21/nA2sxlLCOtJZ2L8sGL+YzxHlsVhLhEnC355CP2SwKVtYqJNJ4aYFbxeusqZXJFiD4KbveHhk0w==
