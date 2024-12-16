@@ -2135,7 +2135,7 @@
     unist-util-visit "^5.0.0"
     unwasm "^0.3.9"
 
-"@nuxtjs/robots@^5.0.0":
+"@nuxtjs/robots@^5.0.1":
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/@nuxtjs/robots/-/robots-5.0.1.tgz#473ea9f72b54f22bc5c815594313b8c888abbbb0"
   integrity sha512-kao3acYi51WGcI/Pn7UVC2SJJ+QZONmrw91QFmkH8xsAcgNO5/pChtDY0xBfdRp6Mxp7ME+ppKFLctzVQJdasw==
