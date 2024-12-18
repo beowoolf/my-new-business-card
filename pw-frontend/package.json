@@ -17,7 +17,7 @@
     "@nuxtjs/google-fonts": "^3.2.0",
     "@nuxtjs/robots": "^5.0.1",
     "@rollup/wasm-node": "^4.28.1",
-    "@types/node": "^22.10.1",
+    "@types/node": "^22.10.2",
     "@vite-pwa/nuxt": "^0.10.6",
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
