@@ -271,6 +271,12 @@ export default {
                 i: '/akademiadotnet/szkolablazora/B17FF3B5-994C-49BD-99A5-D1C7D6BE5EF8',
                 p: false,
               },
+              {
+                c: 'Szkoła Aplikacji SaaS',
+                d: '2024-07-23',
+                i: '/akademiadotnet/szkolaaplikacjisaas/8A11D696-22E6-4381-93CC-153B1878CF31',
+                p: false,
+              },
             ],
           },
           {
