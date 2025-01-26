@@ -301,6 +301,12 @@ export default {
                 i: '/devbites/ProgramowanieObiektoweFundamenty.pdf',
                 p: false,
               },
+              {
+                c: 'Testy jednostkowe (Wprowadzenie)',
+                d: '2024-01-12',
+                i: '/devbites/TestyJednostkoweWprowadzenie.pdf',
+                p: false,
+              },
             ],
           },
           {
