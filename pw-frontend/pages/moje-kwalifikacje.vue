@@ -307,6 +307,12 @@ export default {
                 i: '/devbites/TestyJednostkoweWprowadzenie.pdf',
                 p: false,
               },
+              {
+                c: 'Tailwind CSS od zera do bohatera',
+                d: '2024-01-16',
+                i: '/devbites/TailwindCSSodZeraDoBohatera.pdf',
+                p: false,
+              },
             ],
           },
           {
