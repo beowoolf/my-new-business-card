@@ -313,6 +313,12 @@ export default {
                 i: '/devbites/TailwindCSSodZeraDoBohatera.pdf',
                 p: false,
               },
+              {
+                c: 'Dostępność Cyfrowa dla programistów',
+                d: '2024-01-19',
+                i: '/devbites/DostepnoscCyfrowaDlaProgramistow.pdf',
+                p: false,
+              },
             ],
           },
           {
