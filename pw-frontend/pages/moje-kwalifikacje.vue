@@ -319,6 +319,12 @@ export default {
                 i: '/devbites/DostepnoscCyfrowaDlaProgramistow.pdf',
                 p: false,
               },
+              {
+                c: 'JavaScript: Funkcje',
+                d: '2024-06-27',
+                i: '/devbites/JavaScriptFunkcje.pdf',
+                p: false,
+              },
             ],
           },
           {
