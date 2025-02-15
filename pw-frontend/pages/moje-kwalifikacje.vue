@@ -325,6 +325,12 @@ export default {
                 i: '/devbites/JavaScriptFunkcje.pdf',
                 p: false,
               },
+              {
+                c: 'Feature Flags - potężna technika Continuous Delivery',
+                d: '2024-08-07',
+                i: '/devbites/FeatureFlagsPoteznaTechnikaContinuousDelivery.pdf',
+                p: false,
+              },
             ],
           },
           {
