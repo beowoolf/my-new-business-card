@@ -331,6 +331,12 @@ export default {
                 i: '/devbites/FeatureFlagsPoteznaTechnikaContinuousDelivery.pdf',
                 p: false,
               },
+              {
+                c: 'JavaScript: Programowanie Funkcyjne',
+                d: '2024-09-20',
+                i: '/devbites/JavaScriptProgramowanieFunkcyjne.pdf',
+                p: false,
+              },
             ],
           },
           {
