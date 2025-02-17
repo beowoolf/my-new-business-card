@@ -89,7 +89,7 @@
     >
       <div
         class="modal-dialog"
-        :class="'modal-' + (cert.type === 'png' ? 'sm' : 'lg')"
+        :class="'modal-' + (cert.type === 'png' && cert.title === 'CISS - Certified IT Security Specialist - emblemat' ? 'sm' : 'lg')"
       >
         <div
           class="modal-content"
@@ -287,6 +287,18 @@ export default {
                 c: 'Junior Java Ready - wiedza komercyjna Junior Java Developera',
                 d: '2023-05-08',
                 i: '/javaready/certyfikat-jjr.pdf',
+                p: false,
+              },
+            ],
+          },
+          {
+            link: '/devstyle/',
+            name: 'Devstyle',
+            documents: [
+              {
+                c: 'DBMaster',
+                d: '2024-01-15',
+                i: '/devstyle/DBMaster.png',
                 p: false,
               },
             ],
