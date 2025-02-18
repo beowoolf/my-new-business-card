@@ -301,6 +301,12 @@ export default {
                 i: '/devstyle/DBMaster.png',
                 p: false,
               },
+              {
+                c: 'SmartTesting',
+                d: '2024-01-15',
+                i: '/devstyle/SmartTesting.png',
+                p: false,
+              },
             ],
           },
           {
