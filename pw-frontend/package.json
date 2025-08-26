@@ -19,7 +19,7 @@
     "@rollup/wasm-node": "^4.29.1",
     "@types/node": "^22.13.8",
     "@vite-pwa/nuxt": "^0.10.6",
-    "bootstrap": "^5.3.3",
+    "bootstrap": "^5.3.8",
     "bootstrap-icons": "^1.13.1",
     "nuxt": "^3.14.1592",
     "nuxt-gtag": "^3.0.2",

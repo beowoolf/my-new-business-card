@@ -20,21 +20,21 @@ export default defineNuxtConfig({
     'nuxt-simple-sitemap',
   ],
   site: {
-    url: 'https://pawel-wilczek.mojezapiski.pl',
+    url: 'https://mojezapiski.pl',
   },
   gtag: {
-    id: 'G-BQD0EGRB6N'
+    id: 'G-GMH8QEFZH6',
   },
   sitemap: {
-    siteUrl: 'https://pawel-wilczek.mojezapiski.pl',
+    siteUrl: 'https://mojezapiski.pl',
     trailingSlash: true,
     xsl: false,
     credits: false,
   },
   pwa: {
     manifest: {
-      name: 'Paweł Wilczek',
-      short_name: 'Paweł Wilczek',
+      name: 'MojeZapiski.pl',
+      short_name: 'MojeZapiski.pl',
       theme_color: '#007bff',
       lang: 'pl-PL',
     },
@@ -51,34 +51,34 @@ export default defineNuxtConfig({
     },
   },
   app: {
-      head: {
-          htmlAttrs: {
-            lang: 'pl-PL',
-            class: 'h-100',
-          },
-          headAttrs: {
-            itemscope: true,
-            itemtype: 'https://schema.org/WebPage',
-          },
-              bodyAttrs: {
-            class: 'd-flex flex-column h-100',
-          },
-          charset: 'utf-8',
-          viewport: 'width=device-width, initial-scale=1',
-          link: [],
-          script: [
-              {
-                defer: true,
-                src: '//cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js',
-              },
-          ],
+    head: {
+      htmlAttrs: {
+        lang: 'pl-PL',
+        class: 'h-100',
       },
+      headAttrs: {
+        itemscope: true,
+        itemtype: 'https://schema.org/WebPage',
+      },
+      bodyAttrs: {
+        class: 'd-flex flex-column h-100',
+      },
+      charset: 'utf-8',
+      viewport: 'width=device-width, initial-scale=1',
+      link: [],
+      script: [
+        {
+          defer: true,
+          src: '//cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js',
+        },
+      ],
+    },
   },
   runtimeConfig: {
     public: {
       trailingSlash: true,
       website: {
-        baseUrl: 'https://pawel-wilczek.mojezapiski.pl',
+        baseUrl: 'https://mojezapiski.pl',
       },
     },
   },
