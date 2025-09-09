@@ -2477,12 +2477,12 @@
     estree-walker "^2.0.2"
     picomatch "^4.0.2"
 
-"@rollup/wasm-node@^4.29.1":
-  version "4.29.1"
-  resolved "https://registry.yarnpkg.com/@rollup/wasm-node/-/wasm-node-4.29.1.tgz#02b68b34777a5a015fdb0943c00e4785fb8b42ae"
-  integrity sha512-AOtO2Y+XzElJfmJgAECOgbutmKAK5XcKH7CipGDQDBMfLY04ezEoCHWEpmoX5L7/WH3k17rXMCClNiwDbWW+mw==
+"@rollup/wasm-node@^4.50.1":
+  version "4.50.1"
+  resolved "https://registry.yarnpkg.com/@rollup/wasm-node/-/wasm-node-4.50.1.tgz#f046f43691d352b3dda95b27d421783ee36d656b"
+  integrity sha512-3oCUcKNdkemnqy6r12UdAtfYMWywGxVHSCQvtDYeEtnOcOQC/SihSXkO6+rByH2ZhbgfeTbqLiw1NDGfJDptyg==
   dependencies:
-    "@types/estree" "1.0.6"
+    "@types/estree" "1.0.8"
   optionalDependencies:
     fsevents "~2.3.2"
 
@@ -2582,10 +2582,10 @@
   resolved "https://registry.yarnpkg.com/@types/estree/-/estree-0.0.39.tgz#e177e699ee1b8c22d23174caaa7422644389509f"
   integrity sha512-EYNwp3bU+98cpU4lAWYYL7Zz+2gryWH1qbdDTidVd6hkiR6weksdbMadyXKXNPEkQFhXM+hVO9ZygomHXp+AIw==
 
-"@types/estree@1.0.6":
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/@types/estree/-/estree-1.0.6.tgz#628effeeae2064a1b4e79f78e81d87b7e5fc7b50"
-  integrity sha512-AYnb1nQyY49te+VRAVgmzfcgjYS91mY5P0TKUDCLEM+gNnA+3T6rWITXRLYCpahpqSQbN5cE+gHpnPyXjHWxcw==
+"@types/estree@1.0.8":
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/@types/estree/-/estree-1.0.8.tgz#958b91c991b1867ced318bedea0e215ee050726e"
+  integrity sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w==
 
 "@types/hast@^3.0.0", "@types/hast@^3.0.4":
   version "3.0.4"
